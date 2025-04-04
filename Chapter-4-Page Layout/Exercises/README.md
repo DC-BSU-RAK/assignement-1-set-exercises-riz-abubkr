@@ -27,7 +27,7 @@ These tags might come in useful: `<header>` `<nav>` `<main>` `<section>` `<artic
 
 - Welcome text: Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are celebrating ‘collaboration’, so come and find out about the latest collaborations that are happening in this historic and innovative city. They promise an educational and inspirational packed programme for all.
 
-![image](DigiFest.jpg)
+![image][def]
 
 <hr>
 
@@ -45,3 +45,6 @@ Imagine you have been employed to build a single-page web application that manag
 - The page does not need to be interactive;
 - You should focus on the structure and visual layout of the page, but also consider design too;
 - Commenting throughout.
+
+
+[def]: DigiFest.jpg
