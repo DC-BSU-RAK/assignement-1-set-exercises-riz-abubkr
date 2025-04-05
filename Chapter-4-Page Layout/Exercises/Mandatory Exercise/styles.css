@@ -1,0 +1,201 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: #000;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #172d67;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8c15e9;
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 10px;
+    color: #17072b;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    margin-top: 10px;
+}
+
+/* Lineup Section Styling */
+.lineup-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-top: 30px;
+}
+
+.image-container {
+    text-align: center;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #17072b;
+    font-weight: 600;
+}
+
+/* Keynote Speaker and Panel Discussion Styling */
+.keynote, .panel-discussion {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.keynote h3, .panel-discussion h3 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #172d67;
+    margin-bottom: 10px;
+}
+
+.keynote p, .panel-discussion p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+    background-color: #17072b;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8c15e9;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Lineup images stack */
+    .lineup-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+        max-width: 80%;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
