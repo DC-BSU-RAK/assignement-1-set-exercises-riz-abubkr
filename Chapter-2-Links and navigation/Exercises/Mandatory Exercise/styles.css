@@ -1,7 +1,9 @@
+/* Making changes in default style*/
 body,h1,h2,h3,p,ul {
     margin:0;
     padding: 0;
 }
+/*Heading styling*/
  header h1{
     text-align: center;
     font-size: 3rem;
@@ -9,29 +11,31 @@ body,h1,h2,h3,p,ul {
     color:orange;
     padding: 20px;
 }
-
+/*navigation bar styling*/
 nav ul{
     Display:flex;
     justify-content: center;
     list-style: none;
     margin-top: 10px;
 }
-
+/* adding space*/
 nav ul li{
     margin: 0 15px;   
 }
 
+/*Styling navigation text*/
 nav ul li{
     color:#225429a3;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
+/* Hover effecct*/
 
 nav ul li a:hover{
     text-decoration: underline;
 }
-
+/*section styling*/
 section{
     padding: 20px;
     margin: 20px;
@@ -40,14 +44,17 @@ section{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
 }
+/*Section heading styling*/
 
 h2{
     color:#225429a3;
     font-size: 24px;
 }
+/*  Hover effect for button*/
 .button:hover{
     background-color: lightcyan;
 }
+/*Footer styling*/
 footer{
     text-align: center;
     padding: 10;
@@ -57,6 +64,7 @@ footer{
     width:100%;
     bottom:0;
 }
+/*Background color*/
 body{
     background-color:orange;
 }

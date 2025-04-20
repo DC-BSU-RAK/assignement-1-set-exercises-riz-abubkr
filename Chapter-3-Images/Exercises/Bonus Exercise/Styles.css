@@ -1,4 +1,4 @@
-/* Apply a Google Font (Poppins) */
+/* body styling */
 body {
     font-family: 'Poppins', sans-serif;
     background: #f4f4f4; /* Light gray background */
@@ -9,15 +9,16 @@ body {
     align-items: center;
     height: 100vh;
   }
-  
+
+  /*Styling container*/
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
     width: 80%;
-    max-width: 1200px; /* Max width */
+    max-width: 1200px; 
   }
-  
+  /*styling box*/
   .box {
     background: #fff;
     border-radius: 10px;
@@ -69,14 +70,6 @@ body {
     background-color: #f1f1f1;
   }
   
-  /* Responsiveness: Adjust the grid on smaller screens */
-  @media screen and (max-width: 768px) {
-    .container {
-      grid-template-columns: 1fr; /* Stack the divs on smaller screens */
-    }
   
-    .box {
-      font-size: 18px;
-    }
-  }
+  
   

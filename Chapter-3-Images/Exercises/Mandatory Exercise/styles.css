@@ -1,4 +1,4 @@
-
+/*Body styling*/
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #c9cfd0, #000000); 
@@ -13,6 +13,7 @@ body {
     text-align: center;
    
 }
+/*heading styling*/
 
 h1 {
     color: #fff;
@@ -21,13 +22,13 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
 }
-
+/*heading of paragraph styling*/
 header p {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
-
+/*image styling*/
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
@@ -37,7 +38,7 @@ header p {
     width: 100%;
     flex-grow: 1; 
 }
-
+/*container styling*/
 .image-container {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -46,7 +47,7 @@ header p {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
+/*hover effect on image*/
 .image-container:hover {
     transform: scale(1.05); 
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
@@ -63,7 +64,7 @@ img:hover {
     opacity: 0.85; 
 }
 
-
+/*Title for image*/
 .image-title {
     font-size: 1rem;
     color: #333;
@@ -71,14 +72,14 @@ img:hover {
     font-weight: 500;
     line-height: 1.5;
 }
-
+/*copy right section styling*/
 .copyright {
     font-size: 0.9rem;
     color: #aaa; 
     margin-top: 10px;
 }
 
-
+/*footer section styling*/
 footer {
     background-color: #333;
     color: #fff;
@@ -87,7 +88,7 @@ footer {
     text-align: center;
     margin-top: 20px;  
 }
-
+/*footer styling*/
 footer p {
     font-size: 0.9rem;
     margin: 0;

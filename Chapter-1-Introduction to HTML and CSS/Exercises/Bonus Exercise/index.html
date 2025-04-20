@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Quick Reference Guide</title>
+    <!--Linking with css-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!--Heading of the page-->
     <header>
         <h1>HTML & CSS Quick Reference Guide </h1>
     </header>
     <main>
+        <!--Html tag Reference-->
         <section class="html-reference">
             <h2>HTML Tags</h2>
+            <!--Heading tag-->
             <article>
                 <h3>&lt;h1&gt; to &lt;h6&gt;</h3>
                 <p><strong>Description:</strong> Heading tags are used to define headings of various levels (h1 being the largest).</p>
                 <pre><code>&lt;h1&gt;This is a level 1 heading&lt;/h1&gt;</code></pre>
             </article>
+            <!--Paragraph tag-->
             <article>
                 <h3>&lt;p&gt;</h3>
                 <p><strong>Description:</strong> Paragraph tag defines a block of text.</p>
                 <pre><code>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;</code></pre>
             </article>
+            <!--Anchor tag-->
             <article>
                 <h3>&lt;a&gt;</h3>
                 <p><strong>Description:</strong> Anchor tag Help to define hyperlinks.</p>
                 <pre><code>&lt;a href="https://example.com"&gt;Click here&lt;/a&gt;</code></pre>
             </article>
+            <!--ordered and unordered list-->
             <article>
                 <h3>&lt;ul&gt; and &lt;ol&gt;</h3>
                 <p><strong>Description:</strong> The unordered list (&lt;ul&gt;) and ordered list (&lt;ol&gt;) tags define lists.</p>
@@ -36,16 +43,19 @@
   &lt;li&gt;Item 2&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
             </article>
+            <!--Div tag-->
             <article>
                 <h3>&lt;div&gt;</h3>
                 <p><strong>Description:</strong> Div tag is a block-level container for grouping content.</p>
                 <pre><code>&lt;div&gt;This is a div container&lt;/div&gt;</code></pre>
             </article>
+            <!---Image tag-->
             <article>
                 <h3>&lt;img&gt;</h3>
                 <p><strong>Description:</strong> Image tag Help to add images in a webpage.</p>
                 <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
             </article>
+            <!--Form tag-->
             <article>
                 <h3>&lt;form&gt;</h3>
                 <p><strong>Description:</strong> The form tag is used to collect user input.</p>
@@ -54,16 +64,19 @@
   &lt;button type="submit"&gt;Submit&lt;/button&gt;
 &lt;/form&gt;</code></pre>
             </article>
+            <!--span tag-->
             <article>
                 <h3>&lt;span&gt;</h3>
                 <p><strong>Description:</strong> The span tag is an inline container for text or elements.</p>
                 <pre><code>&lt;span&gt;This is inline text&lt;/span&gt;</code></pre>
             </article>
+            <!--Strong tag-->
             <article>
                 <h3>&lt;strong&gt;</h3>
                 <p><strong>Description:</strong> The strong tag is used to define important or bold text.</p>
                 <pre><code>&lt;strong&gt;This text is bold and important&lt;/strong&gt;</code></pre>
             </article>
+            <!--Table tag-->
             <article>
                 <h3>&lt;table&gt;</h3>
                 <p><strong>Description:</strong> The table tag defines a table in HTML.</p>
@@ -73,9 +86,10 @@
 &lt;/table&gt;</code></pre>
             </article>
         </section>
-
+<!--Css reference-->
         <section class="css-reference">
             <h2>CSS Properties</h2>
+            <!--Text color property-->
             <article>
                 <h3>color</h3>
                 <p><strong>Description:</strong> Color property sets the color of text.</p>
@@ -83,41 +97,47 @@
     color: red;
 }</code></pre>
             </article>
+            <!--Background color property-->
             <article>
                 <h3>background-color</h3>
                 <p><strong>Description:</strong> Background-color property sets the background color of an element.</p>
                 <pre><code>div {
-    background-color: lightgray;
+    background-color: Blue;
 }</code></pre>
             </article>
+            <!--Font size property-->
             <article>
                 <h3>font-size</h3>
                 <p><strong>Description:</strong> Font-size property sets the size of the text.</p>
                 <pre><code>h1 {
-    font-size: 32px;
+    font-size: 38px;
 }</code></pre>
             </article>
+            <!--Margin property-->
             <article>
                 <h3>margin</h3>
                 <p><strong>Description:</strong> Margin property defines the space around elements.</p>
                 <pre><code>div {
-    margin: 20px;
+    margin: 15px;
 }</code></pre>
             </article>
             <article>
+                <!--Padding property-->
                 <h3>padding</h3>
                 <p><strong>Description:</strong> Padding property defines the space between an element's content and its border.</p>
                 <pre><code>div {
-    padding: 15px;
+    padding: 20px;
 }</code></pre>
             </article>
+            <!--Border property-->
             <article>
                 <h3>border</h3>
                 <p><strong>Description:</strong> Border property sets the border of an element.</p>
                 <pre><code>div {
-    border: 1px solid black;
+    border: 10px solid black;
 }</code></pre>
             </article>
+            <!--Display property-->
             <article>
                 <h3>display</h3>
                 <p><strong>Description:</strong> Display property specifies how an element is displayed on the webpage.</p>
@@ -125,6 +145,7 @@
     display: inline-block;
 }</code></pre>
             </article>
+            <!--Text align property-->
             <article>
                 <h3>text-align</h3>
                 <p><strong>Description:</strong> Text-align property sets the horizontal alignment of text.</p>
@@ -132,11 +153,12 @@
     text-align: center;
 }</code></pre>
             </article>
+            <!--Font family Property-->
             <article>
                 <h3>font-family</h3>
                 <p><strong>Description:</strong>  Font-family property defines the font of an element.</p>
                 <pre><code>p {
-    font-family: Arial, sans-serif;
+    font-family: Poppins,serif;
 }</code></pre>
             </article>
         </section>

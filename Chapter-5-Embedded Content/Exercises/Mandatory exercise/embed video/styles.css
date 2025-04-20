@@ -1,14 +1,39 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-  }
+
+/*body styling*/
+.main-header {
+  background-color: black;    
+  color: white;               
+  text-align: center;         
+  padding: 20px 0;            
+  font-size: 2.5em;           
+  font-family: Arial, sans-serif; 
+  position: fixed;            
+  top: 0;                     
+  width: 100%;                
+  z-index: 1000;              
+}
   
+  /*header styling*/
+  
+  .main-header {
+    background-color: black;    
+    color: white;              
+    text-align: center;        
+    padding: 20px;             
+    font-size: 2em;             
+    font-family: Arial, sans-serif; 
+  }
+  /*For space between header and video*/
+  body {
+    margin: 0;
+    padding-top: 80px;}
+
+  /*video styling*/
   video {
-    max-width: 90%;
-    height: auto;
+    display: block;             
+    margin: 20px auto;         
+    max-width: 80%;            
+    border: 3px solid #000;     
+    border-radius: 10px; 
   }
   

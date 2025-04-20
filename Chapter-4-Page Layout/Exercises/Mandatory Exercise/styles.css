@@ -1,4 +1,4 @@
-/* General Reset */
+/* Changing default settings */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     font-weight: 400;
     color: #000;
-    background-color: #f4f4f4;
+    background-color:#000;
 }
 
 /* Header Styling */
@@ -167,35 +167,4 @@ footer {
 
 footer p {
     font-size: 14px;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    /* Lineup images stack */
-    .lineup-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image-container {
-        margin-bottom: 20px;
-        max-width: 80%;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    header h1 {
-        font-size: 28px;
-    }
-
-    section h2 {
-        font-size: 24px;
-    }
-
-    button {
-        width: 100%;
-        padding: 12px;
-    }
 }
