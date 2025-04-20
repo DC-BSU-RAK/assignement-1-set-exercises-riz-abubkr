@@ -1,0 +1,69 @@
+/*body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f2;
+    color: #5a3e36;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/*heading Styling*/
+h1 {
+    font-size: 2.5rem;
+    color: #b66a3c;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+/* Image styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Section heading styling */
+h2 {
+    color: #a7522a;
+    margin-top: 40px;
+}
+
+/* List containers  */
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+/* List items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Horizontal line */
+hr {
+    margin: 40px auto;
+    width: 60%;
+    border: 1px solid #e2c8b0;
+}
+
+/* Hover effect */
+li:hover {
+    color: #d17848;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+

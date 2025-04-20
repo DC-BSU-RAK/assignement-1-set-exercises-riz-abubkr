@@ -9,7 +9,7 @@ function calculateTotal() {
   const costPerLiter = parseFloat(costInput.value);
   const liters = parseFloat(litersInput.value);
 
-  // Validate inputs
+  // Validating inputs
   if (isNaN(costPerLiter) || isNaN(liters)) {
     totalCostDisplay.textContent = '⚠️ Please enter valid numbers.';
     return;

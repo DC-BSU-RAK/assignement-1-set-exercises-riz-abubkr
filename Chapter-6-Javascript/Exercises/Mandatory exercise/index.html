@@ -4,26 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Petrol Cost Calculator</title>
+  <!--Linking with css-->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
+    <!---Heading -->
     <h1>Petrol Cost Calculator</h1>
+
+    <!--input  for Cost per Litre-->
     <div class="form-group">
       <label for="cost">Cost per liter (د):</label>
       <input type="number" id="cost" placeholder="Enter cost per liter" />
     </div>
 
+     <!--input for number of litres-->
     <div class="form-group">
       <label for="liters">Liters:</label>
       <input type="number" id="liters" placeholder="Enter number of liters" />
     </div>
 
+     <!--Button for Calculation-->
     <button id="calculateButton">Calculate</button>
 
+    <!--Total Cost-->
     <p id="totalCost" class="result"></p>
   </div>
 
+    <!--Linking with java-->
   <script src="index.js"></script>
 </body>
 </html>

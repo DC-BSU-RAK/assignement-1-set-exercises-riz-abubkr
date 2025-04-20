@@ -1,10 +1,10 @@
-
+/*Modifying Default styles*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  
+  /*body styling*/
   body {
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(135deg,grey,brown);
