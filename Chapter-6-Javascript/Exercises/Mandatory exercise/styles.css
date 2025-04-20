@@ -1,0 +1,85 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,grey,brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: grey;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Heading */
+  .container h1 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+    color:black;
+  }
+  
+  /* Input styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #b2dfdb;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  /* Highlight input on focus */
+  input:focus {
+    border-color:grey;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color:burlywood;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: gray;
+  }
+  
+  /* Result styling */
+  #totalCost {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color:black;
+  }
+  
